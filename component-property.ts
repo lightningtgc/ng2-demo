@@ -16,4 +16,4 @@ class MyApp{
 	}
 }
 		
-bootstrap(EzApp);
+bootstrap(MyApp);
