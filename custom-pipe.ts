@@ -1,6 +1,7 @@
 import {Component,Pipe} from "angular2/core";
 import {bootstrap} from "angular2/platform/browser";
 
+// name为管道名称，class名需要pipes进行引入
 @Pipe({name:"title"})
 class TitlePipe{
 	transform(input,args){
